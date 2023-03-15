@@ -10,6 +10,7 @@ const theme = {
   gradient: ["linear-gradient(135deg, #2962ff, #512da8)"],
   fontWeight: ["300", "400", "500", "600", "700"],
   textShadow: ["2px 2px 2px rgba(0, 0, 0, 0.3)"],
+  transition: ["all 0.3s ease-in-out"],
 };
 
 export default theme;

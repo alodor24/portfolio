@@ -27,3 +27,22 @@ export const Subtitle = styled.h4`
   font-size: calc(1.275rem + 0.3vw);
   line-height: ${(props) => props.theme.lineHeight[1]};
 `;
+
+export const ContainerIcons = styled.div`
+  max-width: 35rem;
+  width: 100%;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+`;
+
+export const Icon = styled.div`
+  color: ${(props) => props.theme.colors.white[1]};
+  font-size: 3rem;
+  transition: ${(props) => props.theme.transition[0]};
+
+  &:hover {
+    margin-top: -0.5rem;
+  }
+`;
