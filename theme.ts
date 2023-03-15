@@ -5,10 +5,11 @@ const theme = {
   },
   width: ["540px", "720px", "960px", "1140px", "1320px"],
   textSize: ["1rem"],
-  lineHeight: ["1.5"],
+  lineHeight: ["1.5", "1.2"],
   screenSize: ["576px", "768px", "992px", "1200px", "1400px"],
   gradient: ["linear-gradient(135deg, #2962ff, #512da8)"],
   fontWeight: ["300", "400", "500", "600", "700"],
+  textShadow: ["2px 2px 2px rgba(0, 0, 0, 0.3)"],
 };
 
 export default theme;
