@@ -7,6 +7,19 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
+  ::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.4rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #2962ff 0%, #512da8 100%);
+    border-radius: 100px;
+  }
+
   html,
   body {
     max-width: 100vw;
@@ -18,5 +31,17 @@ export const GlobalStyle = createGlobalStyle`
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  .textFlow {
+    font-size: calc(0.4rem + 1vw);
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+  }
+
+  @media(max-width: 575px) {
+    .textFlow {
+      font-size: calc(1rem + 1vw);
+    }
   }
 `;
