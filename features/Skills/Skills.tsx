@@ -1,8 +1,8 @@
 import Section from "@/components/Section";
 
-const About = () => {
+const Skills = () => {
   return (
-    <Section title="Acerca de">
+    <Section title="Habilidades">
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit illo
         cupiditate soluta tempora voluptatem animi aliquid enim ipsam quo, ullam
@@ -12,4 +12,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;

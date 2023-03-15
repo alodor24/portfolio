@@ -11,12 +11,12 @@ export const Wrapper = styled.div`
 
 export const Title = styled.h3`
   font-size: calc(2rem + 1vw);
-  font-weight: 500;
+  font-weight: ${(props) => props.theme.fontWeight[2]};
   margin-bottom: 1rem;
 `;
 
 export const Line = styled.div`
-  margin-bottom: 50px;
+  margin-bottom: 3.5rem;
   width: 50%;
   height: 0.35rem;
   background-color: ${(props) => props.theme.colors.grey[1]};

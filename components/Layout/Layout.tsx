@@ -1,4 +1,6 @@
 import About from "@/features/About";
+import Projects from "@/features/Projects";
+import Skills from "@/features/Skills";
 import Container from "../Container";
 import Footer from "../Footer";
 import Head from "../Head";
@@ -11,6 +13,8 @@ const Layout = () => {
       <SC.Main>
         <Container>
           <About />
+          <Skills />
+          <Projects />
         </Container>
       </SC.Main>
       <Footer />
