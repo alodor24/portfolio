@@ -3,6 +3,20 @@ export enum Lang {
   EN = "EN",
 }
 
+export enum AboutLang {
+  TITLE_ES = "Acerca de",
+  PARAGRAPH_1_ES = "Me llamo José Alejandro Méndez Sánchez, Ingeniero Informático Venezolano apasionado por la tecnología. Alodor es mi seudónimo, el mismo es un acrónimo originado a partir de un juego de palabras.",
+  PARAGRAPH_2_ES = "Soy un desarrollador con más de 4 años de experiencia en tecnologías web. Especialista en solución de problemas mediante metodologías ágiles.",
+  PARAGRAPH_3_ES = "Siempre tengo interés por aprender, probar y aplicar nuevas herramientas o soluciones",
+  PARAGRAPH_4_ES = "En la actualidad busco llegar al siguiente nivel, convertirme en un desarrollador que pueda dominar tanto el Frontend como el Backend y poder aportar todos mis conocimientos en un entorno colaborativo.",
+
+  TITLE_EN = "About",
+  PARAGRAPH_1_EN = "",
+  PARAGRAPH_2_EN = "",
+  PARAGRAPH_3_EN = "",
+  PARAGRAPH_4_EN = "",
+}
+
 export enum ContactLang {
   TITLE_ES = "Tú tranquilo",
   SUBTITLE_ES = "que del trabajo web yo me encargo.",
