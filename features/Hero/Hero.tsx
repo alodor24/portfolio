@@ -24,7 +24,7 @@ const Hero = () => {
                 ? HeroLang.SUBTITLE_ES
                 : HeroLang.SUBTITLE_EN}
             </SC.Subtitle>
-            <SC.Button type="button">
+            <SC.Button to="about" spy={true} smooth={true} duration={500}>
               {language === Lang.ES ? HeroLang.BUTTON_ES : HeroLang.BUTTON_EN}
             </SC.Button>
           </SC.WrapperContent>

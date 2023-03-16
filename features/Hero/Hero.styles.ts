@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-scroll";
 
 export const Filter = styled.div`
   background-image: url("/assets/images/filter.png");
@@ -40,7 +41,7 @@ export const Subtitle = styled.h2`
   margin-bottom: 2.5rem;
 `;
 
-export const Button = styled.button`
+export const Button = styled(Link)`
   position: relative;
   top: 0;
   cursor: pointer;

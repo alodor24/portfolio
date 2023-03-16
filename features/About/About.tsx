@@ -8,6 +8,7 @@ const About = () => {
 
   return (
     <Section
+      id="about"
       title={language === Lang.ES ? AboutLang.TITLE_ES : AboutLang.TITLE_EN}
     >
       <SC.Wrapper>
