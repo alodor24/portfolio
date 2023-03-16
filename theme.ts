@@ -11,6 +11,7 @@ const theme = {
   fontWeight: ["300", "400", "500", "600", "700"],
   textShadow: ["2px 2px 2px rgba(0, 0, 0, 0.3)"],
   transition: ["all 0.3s ease-in-out"],
+  dropShadow: ["drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.2))"],
 };
 
 export default theme;

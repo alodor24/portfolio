@@ -1,5 +1,6 @@
 import About from "@/features/About";
 import Contact from "@/features/Contact";
+import Hero from "@/features/Hero";
 import Projects from "@/features/Projects";
 import Skills from "@/features/Skills";
 import Container from "../Container";
@@ -11,6 +12,7 @@ const Layout = () => {
   return (
     <>
       <Head />
+      <Hero />
       <SC.Main>
         <Container>
           <About />
