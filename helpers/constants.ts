@@ -1,7 +1,52 @@
+export enum SectionEnum {
+  HERO = "hero",
+  ABOUT = "about",
+  SKILLS = "skills",
+  PROJECTS = "projects",
+}
+
 export enum Lang {
   ES = "ES",
   EN = "EN",
 }
+
+export const Navbar_ES = [
+  {
+    name: "Inicio",
+    to: SectionEnum.HERO,
+  },
+  {
+    name: "Acerca de",
+    to: SectionEnum.ABOUT,
+  },
+  {
+    name: "Habilidades",
+    to: SectionEnum.SKILLS,
+  },
+  {
+    name: "Proyectos",
+    to: SectionEnum.PROJECTS,
+  },
+];
+
+export const Navbar_EN = [
+  {
+    name: "Home",
+    to: SectionEnum.HERO,
+  },
+  {
+    name: "About",
+    to: SectionEnum.ABOUT,
+  },
+  {
+    name: "Skills",
+    to: SectionEnum.SKILLS,
+  },
+  {
+    name: "Projects",
+    to: SectionEnum.PROJECTS,
+  },
+];
 
 export enum HeroLang {
   TITLE_ES = "José A. Méndez",

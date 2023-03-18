@@ -1,8 +1,9 @@
 import Section from "@/components/Section";
+import { SectionEnum } from "@/helpers/constants";
 
 const Skills = () => {
   return (
-    <Section title="Habilidades">
+    <Section id={SectionEnum.SKILLS} title="Habilidades">
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit illo
         cupiditate soluta tempora voluptatem animi aliquid enim ipsam quo, ullam

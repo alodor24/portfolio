@@ -6,12 +6,14 @@ import Skills from "@/features/Skills";
 import Container from "../Container";
 import Footer from "../Footer";
 import Head from "../Head";
+import Navbar from "../Navbar";
 import * as SC from "./Layout.styles";
 
 const Layout = () => {
   return (
     <>
       <Head />
+      <Navbar />
       <Hero />
       <SC.Main>
         <Container>

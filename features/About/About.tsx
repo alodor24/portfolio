@@ -1,5 +1,5 @@
 import Section from "@/components/Section";
-import { AboutLang, Lang } from "@/helpers/constants";
+import { AboutLang, Lang, SectionEnum } from "@/helpers/constants";
 import useLang from "@/hooks/useLang";
 import * as SC from "./About.styles";
 
@@ -8,7 +8,7 @@ const About = () => {
 
   return (
     <Section
-      id="about"
+      id={SectionEnum.ABOUT}
       title={language === Lang.ES ? AboutLang.TITLE_ES : AboutLang.TITLE_EN}
     >
       <SC.Wrapper>

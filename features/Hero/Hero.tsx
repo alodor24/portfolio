@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import { HeroLang, Lang } from "@/helpers/constants";
+import { HeroLang, Lang, SectionEnum } from "@/helpers/constants";
 import useLang from "@/hooks/useLang";
 import { Parallax } from "react-parallax";
 import * as SC from "./Hero.styles";
@@ -13,7 +13,7 @@ const Hero = () => {
       bgImageAlt="Hero Image"
       strength={100}
     >
-      <SC.Filter>
+      <SC.Filter id={SectionEnum.HERO}>
         <Container>
           <SC.WrapperContent>
             <SC.Title>
