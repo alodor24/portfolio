@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import Image from "next/image";
 import { Link } from "react-scroll";
 
@@ -37,7 +37,12 @@ export const ContainerNav = styled.div<{ active?: boolean }>`
     width: 80vw;
     height: 100vh;
     background-color: ${(props) => props.theme.colors.white[1]};
-    filter: ${(props) => props.theme.dropShadow[0]};
+
+    ${(props) =>
+      props.active &&
+      css`
+        filter: ${(props) => props.theme.dropShadow[0]};
+      `}
   }
 `;
 

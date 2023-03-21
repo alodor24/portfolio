@@ -35,6 +35,10 @@ export const ContainerIcons = styled.div`
   display: flex;
   justify-content: center;
   gap: 4rem;
+
+  @media (max-width: ${(props) => props.theme.width[0]}) {
+    gap: 2rem;
+  }
 `;
 
 export const Icon = styled.div`
@@ -44,5 +48,9 @@ export const Icon = styled.div`
 
   &:hover {
     margin-top: -0.5rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.width[0]}) {
+    font-size: 2rem;
   }
 `;

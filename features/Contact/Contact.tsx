@@ -25,7 +25,7 @@ const Contact = () => {
               title={profile.title}
               rel="noreferrer"
             >
-              <i className={`fab ${profile.favicon}`} />
+              <i className={profile.favicon} />
             </a>
           </SC.Icon>
         ))}

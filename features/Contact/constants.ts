@@ -1,17 +1,22 @@
 export const profiles = [
   {
     title: "Linkedin",
-    favicon: "fa-linkedin",
+    favicon: "fab fa-linkedin",
     url: "https://www.linkedin.com/in/alejo-mndz/",
   },
   {
     title: "Github",
-    favicon: "fa-github-square",
+    favicon: "fab fa-github-square",
     url: "https://github.com/alodor24",
   },
   {
     title: "Telegram",
-    favicon: "fa-telegram-plane",
+    favicon: "fab fa-telegram-plane",
     url: "https://t.me/alejo_mndz",
+  },
+  {
+    title: "E-mail",
+    favicon: "fas fa-envelope",
+    url: "mailto:jose-a-mendez@hotmail.com?Subject=Enviado%20desde%20la%20web",
   },
 ];
