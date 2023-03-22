@@ -48,6 +48,69 @@ export const Navbar_EN = [
   },
 ];
 
+export const skills = [
+  {
+    name: "JavaScript",
+    range: 75,
+  },
+  {
+    name: "Python",
+    range: 55,
+  },
+  {
+    name: "HTML",
+    range: 95,
+  },
+  {
+    name: "CSS",
+    range: 89,
+  },
+  {
+    name: "Styled Components",
+    range: 79,
+  },
+  {
+    name: "MySQL",
+    range: 55,
+  },
+  {
+    name: "Firebase",
+    range: 45,
+  },
+  {
+    name: "GIT",
+    range: 72,
+  },
+  {
+    name: "Bootstrap",
+    range: 96,
+  },
+  {
+    name: "Material UI",
+    range: 65,
+  },
+  {
+    name: "React",
+    range: 68,
+  },
+  {
+    name: "Next",
+    range: 52,
+  },
+  {
+    name: "TypeScript",
+    range: 45,
+  },
+  {
+    name: "React Query",
+    range: 45,
+  },
+  {
+    name: "WordPress",
+    range: 75,
+  },
+];
+
 export enum HeroLang {
   TITLE_ES = "José A. Méndez",
   SUBTITLE_ES = "Desarrollador Web Front - End",
@@ -70,6 +133,14 @@ export enum AboutLang {
   PARAGRAPH_2_EN = "",
   PARAGRAPH_3_EN = "",
   PARAGRAPH_4_EN = "",
+}
+
+export enum SkillLang {
+  TITLE_ES = "Habilidades",
+  SUBTITLE_ES = "Tecnologías con las cuales me desenvuelvo.",
+
+  TITLE_EN = "Skills",
+  SUBTITLE_EN = "Technologies with which I develop.",
 }
 
 export enum ContactLang {

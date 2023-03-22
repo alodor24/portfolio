@@ -1,7 +1,8 @@
 const theme = {
   colors: {
-    grey: ["#212529", "#ecf0f1", "rgba(33,37,41,0.93)", "#757575"],
+    grey: ["#212529", "#ecf0f1", "rgba(33,37,41,0.93)", "#757575", "#e9ecef"],
     white: ["rgba(255, 255, 255, 0.55)", "#fff"],
+    blue: ["#2962ff"],
   },
   width: ["540px", "720px", "960px", "1140px", "1320px"],
   textSize: ["1rem"],

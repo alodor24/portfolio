@@ -1,14 +1,26 @@
+import ProgressBar from "@/components/ProgressBar";
 import Section from "@/components/Section";
-import { SectionEnum } from "@/helpers/constants";
+import { Lang, SectionEnum, SkillLang, skills } from "@/helpers/constants";
+import useLang from "@/hooks/useLang";
+import * as SC from "./Skills.styles";
 
 const Skills = () => {
+  const { language } = useLang();
+
   return (
-    <Section id={SectionEnum.SKILLS} title="Habilidades">
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. At odit illo
-        cupiditate soluta tempora voluptatem animi aliquid enim ipsam quo, ullam
-        accusamus, nesciunt dolores suscipit nemo nihil neque, sequi iure.
+    <Section
+      id={SectionEnum.SKILLS}
+      title={language === Lang.ES ? SkillLang.TITLE_ES : SkillLang.TITLE_EN}
+    >
+      <p className="textFlow">
+        {language === Lang.ES ? SkillLang.SUBTITLE_ES : SkillLang.SUBTITLE_EN}
       </p>
+
+      <SC.Wrapper>
+        {skills.map((item, index) => (
+          <ProgressBar key={index} name={item.name} range={item.range} />
+        ))}
+      </SC.Wrapper>
     </Section>
   );
 };
