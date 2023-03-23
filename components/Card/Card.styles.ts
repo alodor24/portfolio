@@ -6,8 +6,11 @@ export const Wrapper = styled.div`
   border-radius: 0.7rem;
   box-shadow: ${(props) => props.theme.shadow[0]};
   transition: ${(props) => props.theme.transition[0]};
+  position: relative;
+  top: 0;
 
   &:hover {
+    top: -0.5rem;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 
     img {

@@ -207,3 +207,5 @@ export enum FooterLang {
   COPY_EN = "All rights reserved.",
   AUTHOR_EN = "Developed by Alodor",
 }
+
+export const TIME_DELAY = 3000;

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as SC from "./Card.styles";
 
 type Props = {
