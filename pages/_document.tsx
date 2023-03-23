@@ -4,10 +4,18 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta property="og:url" content="https://alodor.vercel.app" />
+        <meta property="og:title" content="Alodor | Portafolio Profesional" />
+        <meta
+          property="og:description"
+          content="Diseño y desarrollo de aplicaciones web con estandares actuales de UI/UX, Seguridad y Compatibilidad con distintos navegadores y dispositivos."
+        />
         <meta
           property="og:image"
           content="https://alodor.vercel.app/assets/images/bg-hero.jpeg"
         />
+        <meta property="og:site_name" content="Alodor" />
+
         <meta
           name="description"
           content="Diseño y desarrollo de aplicaciones web con estandares actuales de UI/UX, Seguridad y Compatibilidad con distintos navegadores y dispositivos."

@@ -19,7 +19,6 @@ export const WrapperNav = styled.div`
 
 export const ContainerLogo = styled.div`
   width: 40%;
-  border: solid blue 1px;
 `;
 
 export const Logo = styled(Image)`

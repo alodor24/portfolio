@@ -10,6 +10,11 @@ export enum Lang {
   EN = "EN",
 }
 
+export enum HeadTitleLang {
+  TITLE_ES = "Portafolio Profesional",
+  TITLE_EN = "Professional Portfolio",
+}
+
 export const Navbar_ES = [
   {
     name: "Inicio",
