@@ -111,6 +111,45 @@ export const skills = [
   },
 ];
 
+export const projects = [
+  {
+    name: "Marvel Challenge",
+    type: "Web App",
+    image: "/assets/images/portfolio/app-marvel.jpeg",
+    url: "https://marvel-app-challenge.vercel.app/",
+  },
+  {
+    name: "Calculator React Project",
+    type: "Web App",
+    image: "/assets/images/portfolio/calculator.jpeg",
+    url: "https://calculator-ten-tawny.vercel.app/",
+  },
+  {
+    name: "Liteflix Challenge",
+    type: "Web App",
+    image: "/assets/images/portfolio/app-liteflix.jpeg",
+    url: "https://liteflix-challenge.vercel.app/",
+  },
+  {
+    name: "DM Hosting",
+    type: "One Page",
+    image: "/assets/images/portfolio/dmhosting.jpeg",
+    url: "https://dmhosting.co",
+  },
+  {
+    name: "SomosFit",
+    type: "Blog",
+    image: "/assets/images/portfolio/somos-fit.jpeg",
+    url: "https://blog.somosfit.com/blog",
+  },
+  {
+    name: "Oriente Hosting",
+    type: "Web Site",
+    image: "/assets/images/portfolio/oriente-hosting.jpeg",
+    url: "https://www.orientehosting.com/",
+  },
+];
+
 export enum HeroLang {
   TITLE_ES = "José A. Méndez",
   SUBTITLE_ES = "Desarrollador Web Front - End",
@@ -141,6 +180,16 @@ export enum SkillLang {
 
   TITLE_EN = "Skills",
   SUBTITLE_EN = "Technologies with which I develop.",
+}
+
+export enum ProjectLang {
+  TITLE_ES = "Proyectos",
+  SUBTITLE_ES = "Algunos de los proyectos realizados.",
+  BUTTON_ES = "Ver Proyecto",
+
+  TITLE_EN = "Projects",
+  SUBTITLE_EN = "Some projects that I have developed.",
+  BUTTON_EN = "See Project",
 }
 
 export enum ContactLang {
