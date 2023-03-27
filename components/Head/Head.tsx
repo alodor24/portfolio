@@ -4,13 +4,12 @@ import Head from "next/head";
 
 const HeadApp = () => {
   const { language } = useLang();
+  const titleDefault =
+    language === Lang.ES ? HeadTitleLang.TITLE_ES : HeadTitleLang.TITLE_EN;
 
   return (
     <Head>
-      <title>
-        Alodor |{" "}
-        {language === Lang.ES ? HeadTitleLang.TITLE_ES : HeadTitleLang.TITLE_EN}
-      </title>
+      <title>Alodor | {titleDefault}</title>
     </Head>
   );
 };
