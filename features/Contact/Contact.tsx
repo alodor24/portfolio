@@ -1,10 +1,10 @@
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { ContactLang, Lang } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import { profiles } from "./constants";
 import * as SC from "./Contact.styles";
 
 const Contact = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
 
   return (
     <SC.Wrapper>

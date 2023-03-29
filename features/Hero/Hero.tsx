@@ -1,11 +1,11 @@
 import Container from "@/components/Container";
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { HeroLang, Lang, SectionEnum } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import { Parallax } from "react-parallax";
 import * as SC from "./Hero.styles";
 
 const Hero = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
 
   return (
     <Parallax

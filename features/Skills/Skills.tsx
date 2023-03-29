@@ -1,11 +1,11 @@
 import ProgressBar from "@/components/ProgressBar";
 import Section from "@/components/Section";
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { Lang, SectionEnum, SkillLang, skills } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import * as SC from "./Skills.styles";
 
 const Skills = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
 
   return (
     <Section

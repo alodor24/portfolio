@@ -1,10 +1,10 @@
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { FooterLang, Lang } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import Container from "../Container";
 import * as SC from "./Footer.styles";
 
 const Footer = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
   const year = new Date().getFullYear();
 
   return (

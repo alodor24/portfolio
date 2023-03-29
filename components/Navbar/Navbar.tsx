@@ -1,12 +1,13 @@
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { Lang, Navbar_EN, Navbar_ES, SectionEnum } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import Container from "../Container";
+import LanguageSelect from "../LanguageSelect";
 import * as SC from "./Navbar.styles";
 
 const Navbar = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
   const [menuActive, setMenuActive] = useState<boolean>(false);
 
   const handleMenu = () => {
@@ -52,6 +53,7 @@ const Navbar = () => {
                   </SC.NavLink>
                 )
               )}
+              <LanguageSelect />
             </SC.Nav>
           </SC.ContainerNav>
         </SC.WrapperNav>

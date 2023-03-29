@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
+import { LanguageContextData } from ".";
 
-const useLang = () => {
+const useLanguageContextValue = (): LanguageContextData => {
   const [language, setLanguage] = useState<string>("");
 
   useEffect(() => {
@@ -16,4 +17,4 @@ const useLang = () => {
   };
 };
 
-export default useLang;
+export default useLanguageContextValue;

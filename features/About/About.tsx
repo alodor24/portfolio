@@ -1,10 +1,10 @@
 import Section from "@/components/Section";
+import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { AboutLang, Lang, SectionEnum } from "@/helpers/constants";
-import useLang from "@/hooks/useLang";
 import * as SC from "./About.styles";
 
 const About = () => {
-  const { language } = useLang();
+  const { language } = useLanguageContext();
 
   return (
     <Section
