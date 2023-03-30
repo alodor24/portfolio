@@ -5,11 +5,13 @@ import Head from "next/head";
 const HeadApp = () => {
   const { language } = useLanguageContext();
   const titleDefault =
-    language === Lang.ES ? HeadTitleLang.TITLE_ES : HeadTitleLang.TITLE_EN;
+    language === Lang.ES
+      ? `Alodor | ${HeadTitleLang.TITLE_ES}`
+      : `Alodor | ${HeadTitleLang.TITLE_EN}`;
 
   return (
     <Head>
-      <title>Alodor | {titleDefault}</title>
+      <title>{titleDefault}</title>
     </Head>
   );
 };
