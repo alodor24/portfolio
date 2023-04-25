@@ -86,7 +86,7 @@ export const skills = [
   },
   {
     name: "MySQL",
-    range: 55,
+    range: 65,
   },
   {
     name: "Firebase",
@@ -106,23 +106,31 @@ export const skills = [
   },
   {
     name: "React",
-    range: 68,
+    range: 75,
   },
   {
     name: "Next",
-    range: 52,
+    range: 75,
   },
   {
     name: "TypeScript",
-    range: 45,
+    range: 65,
   },
   {
     name: "React Query",
-    range: 45,
+    range: 55,
   },
   {
     name: "WordPress",
     range: 75,
+  },
+  {
+    name: "Node",
+    range: 45,
+  },
+  {
+    name: "Express",
+    range: 45,
   },
 ];
 
