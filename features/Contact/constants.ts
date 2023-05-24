@@ -17,6 +17,6 @@ export const profiles = [
   {
     title: "E-mail",
     favicon: "fas fa-envelope",
-    url: "mailto:jose-a-mendez@hotmail.com?Subject=Enviado%20desde%20la%20web",
+    url: "mailto:jose-a-mendez@hotmail.com",
   },
 ];
