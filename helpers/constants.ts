@@ -82,11 +82,11 @@ export const skills = [
   },
   {
     name: "Styled Components",
-    range: 79,
+    range: 85,
   },
   {
     name: "SQL",
-    range: 65,
+    range: 75,
   },
   {
     name: "Firebase",
@@ -102,11 +102,11 @@ export const skills = [
   },
   {
     name: "Material UI",
-    range: 75,
+    range: 85,
   },
   {
     name: "React",
-    range: 75,
+    range: 80,
   },
   {
     name: "Next",
@@ -114,7 +114,7 @@ export const skills = [
   },
   {
     name: "TypeScript",
-    range: 65,
+    range: 72,
   },
   {
     name: "React Query",
@@ -139,6 +139,10 @@ export const skills = [
   {
     name: "Testing Library",
     range: 35,
+  },
+  {
+    name: "Redux",
+    range: 45,
   },
 ];
 
