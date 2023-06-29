@@ -39,12 +39,6 @@ const About = () => {
               ? AboutLang.PARAGRAPH_3_ES
               : AboutLang.PARAGRAPH_3_EN}
           </p>
-
-          <p className="textFlow">
-            {language === Lang.ES
-              ? AboutLang.PARAGRAPH_4_ES
-              : AboutLang.PARAGRAPH_4_EN}
-          </p>
         </div>
       </SC.Wrapper>
     </Section>
