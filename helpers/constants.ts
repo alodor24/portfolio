@@ -78,7 +78,7 @@ export const skills = [
   },
   {
     name: "CSS",
-    range: 89,
+    range: 90,
   },
   {
     name: "Styled Components",
@@ -89,16 +89,8 @@ export const skills = [
     range: 75,
   },
   {
-    name: "Firebase",
-    range: 45,
-  },
-  {
     name: "GIT",
-    range: 72,
-  },
-  {
-    name: "Bootstrap",
-    range: 96,
+    range: 79,
   },
   {
     name: "Material UI",
@@ -106,11 +98,11 @@ export const skills = [
   },
   {
     name: "React",
-    range: 80,
+    range: 89,
   },
   {
     name: "Next",
-    range: 75,
+    range: 87,
   },
   {
     name: "TypeScript",
@@ -118,11 +110,7 @@ export const skills = [
   },
   {
     name: "React Query",
-    range: 55,
-  },
-  {
-    name: "WordPress",
-    range: 75,
+    range: 65,
   },
   {
     name: "Node",
@@ -154,6 +142,18 @@ export const projects = [
     url: "https://marvel-app-challenge.vercel.app/",
   },
   {
+    name: "NCR Challenge",
+    type: "Web App",
+    image: "/assets/images/portfolio/ncr-challenge.jpeg",
+    url: "https://ncr-challenge-peach.vercel.app/",
+  },
+  {
+    name: "Conexa Challenge",
+    type: "Web App",
+    image: "/assets/images/portfolio/conexa-challenge.jpeg",
+    url: "https://conexa-challenge-phi.vercel.app/",
+  },
+  {
     name: "Calculator React Project",
     type: "Web App",
     image: "/assets/images/portfolio/calculator.jpeg",
@@ -164,24 +164,6 @@ export const projects = [
     type: "Web App",
     image: "/assets/images/portfolio/app-liteflix.jpeg",
     url: "https://liteflix-challenge.vercel.app/",
-  },
-  {
-    name: "DM Hosting",
-    type: "One Page",
-    image: "/assets/images/portfolio/dmhosting.jpeg",
-    url: "https://dmhosting.co",
-  },
-  {
-    name: "SomosFit",
-    type: "Blog",
-    image: "/assets/images/portfolio/somos-fit.jpeg",
-    url: "https://blog.somosfit.com/blog",
-  },
-  {
-    name: "Oriente Hosting",
-    type: "Web Site",
-    image: "/assets/images/portfolio/oriente-hosting.jpeg",
-    url: "https://www.orientehosting.com/",
   },
 ];
 
