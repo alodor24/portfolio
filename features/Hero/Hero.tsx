@@ -3,6 +3,7 @@ import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { HeroLang, Lang, SectionEnum } from "@/helpers/constants";
 import { Parallax } from "react-parallax";
 import * as SC from "./Hero.styles";
+import Button from "@/components/Button";
 
 const Hero = () => {
   const { language } = useLanguageContext();
@@ -24,9 +25,9 @@ const Hero = () => {
                 ? HeroLang.SUBTITLE_ES
                 : HeroLang.SUBTITLE_EN}
             </SC.Subtitle>
-            <SC.Button to="about" spy={true} smooth={true} duration={500}>
+            <Button isScrollTo={true} href={SectionEnum.ABOUT}>
               {language === Lang.ES ? HeroLang.BUTTON_ES : HeroLang.BUTTON_EN}
-            </SC.Button>
+            </Button>
           </SC.WrapperContent>
         </Container>
       </SC.Filter>

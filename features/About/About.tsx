@@ -2,6 +2,7 @@ import Section from "@/components/Section";
 import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
 import { AboutLang, Lang, SectionEnum } from "@/helpers/constants";
 import * as SC from "./About.styles";
+import Button from "@/components/Button";
 
 const About = () => {
   const { language } = useLanguageContext();
@@ -39,6 +40,10 @@ const About = () => {
               ? AboutLang.PARAGRAPH_3_ES
               : AboutLang.PARAGRAPH_3_EN}
           </p>
+
+          <Button href="/assets/files/resume.pdf" target="_blank">
+            {language === Lang.ES ? AboutLang.BUTTON_ES : AboutLang.BUTTON_EN}
+          </Button>
         </div>
       </SC.Wrapper>
     </Section>

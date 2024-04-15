@@ -63,77 +63,6 @@ export const Navbar_EN = [
   },
 ];
 
-export const skills = [
-  {
-    name: "JavaScript",
-    range: 75,
-  },
-  {
-    name: "Python",
-    range: 55,
-  },
-  {
-    name: "HTML",
-    range: 95,
-  },
-  {
-    name: "CSS",
-    range: 90,
-  },
-  {
-    name: "Styled Components",
-    range: 85,
-  },
-  {
-    name: "SQL",
-    range: 75,
-  },
-  {
-    name: "GIT",
-    range: 79,
-  },
-  {
-    name: "Material UI",
-    range: 85,
-  },
-  {
-    name: "React",
-    range: 89,
-  },
-  {
-    name: "Next",
-    range: 87,
-  },
-  {
-    name: "TypeScript",
-    range: 72,
-  },
-  {
-    name: "React Query",
-    range: 65,
-  },
-  {
-    name: "Node",
-    range: 45,
-  },
-  {
-    name: "Express",
-    range: 65,
-  },
-  {
-    name: "Jest",
-    range: 35,
-  },
-  {
-    name: "Testing Library",
-    range: 35,
-  },
-  {
-    name: "Redux",
-    range: 45,
-  },
-];
-
 export const projects = [
   {
     name: "Marvel Challenge",
@@ -169,24 +98,26 @@ export const projects = [
 
 export enum HeroLang {
   TITLE_ES = "José A. Méndez",
-  SUBTITLE_ES = "Desarrollador Web",
+  SUBTITLE_ES = "Desarrollador Web / Mobile",
   BUTTON_ES = "Conóceme",
 
   TITLE_EN = "Jose A. Mendez",
-  SUBTITLE_EN = "Web Developer",
+  SUBTITLE_EN = "Web / Mobile Developer",
   BUTTON_EN = "Know me",
 }
 
 export enum AboutLang {
   TITLE_ES = "Acerca de",
   PARAGRAPH_1_ES = "Hola, me llamo José Alejandro Méndez Sánchez y soy un Ingeniero Informático Venezolano apasionado por la tecnología. Alodor es mi seudónimo, el mismo es un acrónimo originado a partir de un juego de palabras.",
-  PARAGRAPH_2_ES = "Soy un desarrollador con experiencia en tecnologías web. Especialista en brindar solución a problemas mediante metodologías ágiles.",
-  PARAGRAPH_3_ES = "Siempre tengo interés por aprender, probar y aplicar nuevas herramientas o soluciones.",
+  PARAGRAPH_2_ES = "Soy un desarrollador con experiencia en tecnologías web y mobile especializado en brindar soluciones ágiles.",
+  PARAGRAPH_3_ES = "Poseo una gran motivación para seguir perfeccionando habilidades y crecer profesionalmente, por tal motivo siempre tengo interés por aprender, probar y aplicar nuevas herramientas o soluciones.",
+  BUTTON_ES = "Ver currículum",
 
   TITLE_EN = "About",
   PARAGRAPH_1_EN = "Hi, my name is Jose Alejandro Mendez Sanchez and I'm a Venezuelan Computing Engineer passionate about technology. Alodor is my nickname, the same is an acronym originated from a wordplay.",
-  PARAGRAPH_2_EN = "I'm developer with experience in web technologies. Specialist in providing solutions to problems through agile methodologies.",
-  PARAGRAPH_3_EN = "I'm always interested in learning, testing and applying new tools or solutions.",
+  PARAGRAPH_2_EN = "I'm developer with experience in web and mobile technologies. Specialist in providing solutions to problems through agile methodologies.",
+  PARAGRAPH_3_EN = "I have a great motivation to continue perfecting skills and growing professionally, for this reason I'm always interested in learning, testing and applying new tools or solutions.",
+  BUTTON_EN = "See resume",
 }
 
 export enum SkillLang {
@@ -208,11 +139,9 @@ export enum ProjectLang {
 }
 
 export enum ContactLang {
-  TITLE_ES = "Tú tranquilo",
-  SUBTITLE_ES = "que del trabajo web yo me encargo.",
+  TITLE_ES = "Me puedes encontrar en",
 
-  TITLE_EN = "Keep calm",
-  SUBTITLE_EN = "I'll take care of the web work.",
+  TITLE_EN = "You can find me at",
 }
 
 export enum FooterLang {
