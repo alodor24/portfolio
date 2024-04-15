@@ -11,10 +11,9 @@ const Footer = () => {
     <SC.Footer>
       <Container>
         <SC.Text>
-          ©{" "}
           {language === Lang.ES
-            ? `${FooterLang.COPY_ES} ${year} - ${FooterLang.AUTHOR_ES}`
-            : `${FooterLang.COPY_EN} ${year} - ${FooterLang.AUTHOR_EN}`}
+            ? `${FooterLang.AUTHOR_ES}`
+            : `${FooterLang.AUTHOR_EN}`}
         </SC.Text>
       </Container>
     </SC.Footer>

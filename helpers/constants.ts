@@ -216,10 +216,8 @@ export enum ContactLang {
 }
 
 export enum FooterLang {
-  COPY_ES = "Todos los derechos reservados.",
   AUTHOR_ES = "Desarrollado por Alodor",
 
-  COPY_EN = "All rights reserved.",
   AUTHOR_EN = "Developed by Alodor",
 }
 
