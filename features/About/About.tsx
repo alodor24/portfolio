@@ -14,7 +14,7 @@ const About = () => {
       <SC.Wrapper>
         <div>
           <SC.ContainerImage
-            src="/assets/images/alodor.png"
+            src="/assets/images/alodor.jpeg"
             alt="Alodor"
             width={500}
             height={500}

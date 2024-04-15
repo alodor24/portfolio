@@ -14,5 +14,4 @@ export const ContainerImage = styled(Image)`
   max-width: 100%;
   width: 60rem;
   height: auto;
-  filter: drop-shadow(0.2rem 0.5rem 0.3rem rgba(0, 0, 0, 0.4));
 `;

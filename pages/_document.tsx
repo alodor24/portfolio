@@ -10,11 +10,11 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Diseño y desarrollo de aplicaciones web con estandares actuales de UI/UX, Seguridad y Compatibilidad con distintos navegadores y dispositivos."
+          content="Diseño y desarrollo de aplicaciones web y móviles con estandares actuales de UI/UX, Seguridad y Compatibilidad con distintos navegadores y dispositivos."
         />
         <meta
           name="keywords"
-          content="diseño web, desarrollo de páginas web, elaboración de sitios web, diseño web, alodor, desarrollo de app, comercio electrónico, tienda virtual, crear carrito de compra, diseño responsive, blog, aplicaciones web"
+          content="diseño web, desarrollo de páginas web, elaboración de sitios web, diseño web, alodor, desarrollo de app, comercio electrónico, tienda virtual, crear carrito de compra, diseño responsive, blog, aplicaciones web, aplicaciones móviles"
         />
         <link rel="icon" href="/assets/images/favicon.ico" />
         <link
