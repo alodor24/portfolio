@@ -33,7 +33,7 @@ const Layout = () => {
           <SC.Main>
             <Container>
               <About />
-              {/* <Skills /> */}
+              <Skills />
               <Projects />
               <Contact />
             </Container>

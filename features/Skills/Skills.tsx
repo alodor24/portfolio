@@ -1,7 +1,12 @@
-import ProgressBar from "@/components/ProgressBar";
 import Section from "@/components/Section";
+import Image from "next/image";
 import useLanguageContext from "@/context/LanguageContext/useLanguageContext";
-import { Lang, SectionEnum, SkillLang, skills } from "@/helpers/constants";
+import {
+  Lang,
+  SectionEnum,
+  SkillLang,
+  technologies,
+} from "@/helpers/constants";
 import * as SC from "./Skills.styles";
 
 const Skills = () => {
@@ -17,8 +22,10 @@ const Skills = () => {
       </p>
 
       <SC.Wrapper>
-        {skills.map((item, index) => (
-          <ProgressBar key={index} name={item.name} range={item.range} />
+        {technologies.map((tech, index) => (
+          <SC.ContainerLogo key={index}>
+            <Image src={tech.icon} alt={tech.name} width={125} height={65} />
+          </SC.ContainerLogo>
         ))}
       </SC.Wrapper>
     </Section>

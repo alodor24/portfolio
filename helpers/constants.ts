@@ -63,6 +63,89 @@ export const Navbar_EN = [
   },
 ];
 
+export const technologies = [
+  {
+    name: "bootstrap",
+    icon: "/assets/images/logos/bootstrap.svg",
+  },
+  {
+    name: "css",
+    icon: "/assets/images/logos/css.svg",
+  },
+  {
+    name: "expressjs",
+    icon: "/assets/images/logos/expressjs.svg",
+  },
+  {
+    name: "git",
+    icon: "/assets/images/logos/git.svg",
+  },
+  {
+    name: "html",
+    icon: "/assets/images/logos/html.svg",
+  },
+  {
+    name: "javascript",
+    icon: "/assets/images/logos/javascript.svg",
+  },
+  {
+    name: "jest",
+    icon: "/assets/images/logos/jest.svg",
+  },
+  {
+    name: "json",
+    icon: "/assets/images/logos/json.svg",
+  },
+  {
+    name: "material-ui",
+    icon: "/assets/images/logos/material-ui.svg",
+  },
+  {
+    name: "mongodb",
+    icon: "/assets/images/logos/mongodb.svg",
+  },
+  {
+    name: "mysql",
+    icon: "/assets/images/logos/mysql.svg",
+  },
+  {
+    name: "nextjs",
+    icon: "/assets/images/logos/nextjs.svg",
+  },
+  {
+    name: "node",
+    icon: "/assets/images/logos/node.svg",
+  },
+  {
+    name: "postgresql",
+    icon: "/assets/images/logos/postgresql.svg",
+  },
+  {
+    name: "python",
+    icon: "/assets/images/logos/python.svg",
+  },
+  {
+    name: "react",
+    icon: "/assets/images/logos/react.svg",
+  },
+  {
+    name: "redux",
+    icon: "/assets/images/logos/redux.svg",
+  },
+  {
+    name: "styled-components",
+    icon: "/assets/images/logos/styled-components.svg",
+  },
+  {
+    name: "testing-library",
+    icon: "/assets/images/logos/testing-library.svg",
+  },
+  {
+    name: "typescript",
+    icon: "/assets/images/logos/typescript.svg",
+  },
+];
+
 export const projects = [
   {
     name: "Marvel Challenge",
