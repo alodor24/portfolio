@@ -19,15 +19,6 @@ export const Title = styled.h3`
   text-shadow: ${(props) => props.theme.textShadow[0]};
 `;
 
-export const Subtitle = styled.h4`
-  text-align: center;
-  color: ${(props) => props.theme.colors.white[1]};
-  text-shadow: ${(props) => props.theme.textShadow[0]};
-  font-weight: ${(props) => props.theme.fontWeight[0]};
-  font-size: calc(1.275rem + 0.3vw);
-  line-height: ${(props) => props.theme.lineHeight[1]};
-`;
-
 export const ContainerIcons = styled.div`
   max-width: 35rem;
   width: 100%;

@@ -11,11 +11,6 @@ const Contact = () => {
       <SC.Title>
         {language === Lang.ES ? ContactLang.TITLE_ES : ContactLang.TITLE_EN}
       </SC.Title>
-      <SC.Subtitle>
-        {language === Lang.ES
-          ? ContactLang.SUBTITLE_ES
-          : ContactLang.SUBTITLE_EN}
-      </SC.Subtitle>
       <SC.ContainerIcons>
         {profiles.map((profile, index) => (
           <SC.Icon key={index}>
