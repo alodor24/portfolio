@@ -34,6 +34,16 @@ export const Body = styled.div`
   padding: 2.5rem 1.5rem;
 `;
 
+export const Tags = styled.p`
+  margin-top: 1rem;
+  font-size: 14px;
+
+  span {
+    color: ${(props) => props.theme.colors.grey[5]};
+    line-height: 1.7em;
+  }
+`;
+
 export const Title = styled.h4`
   font-size: 1.3rem;
   margin-bottom: 0.7rem;
@@ -41,8 +51,16 @@ export const Title = styled.h4`
 `;
 
 export const Footer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
   padding: 1.5rem;
   border-radius: 0 0 0.7rem 0.7rem;
   background-color: ${(props) => props.theme.colors.white[2]};
   color: ${(props) => props.theme.colors.blue[0]};
+
+  a {
+    line-height: 1.5;
+  }
 `;

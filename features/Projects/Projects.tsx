@@ -25,11 +25,18 @@ const Projects = () => {
             name={item.name}
             type={item.type}
             image={item.image}
-            url={item.url}
-            textButton={
+            tags={item.tags}
+            pathToProject={item.path_to_project}
+            pathToRepository={item.path_to_repository}
+            textButtonProject={
               language === Lang.ES
-                ? ProjectLang.BUTTON_ES
-                : ProjectLang.BUTTON_EN
+                ? ProjectLang.BUTTON_PROJECT_ES
+                : ProjectLang.BUTTON_PROJECT_EN
+            }
+            textButtonRepository={
+              language === Lang.ES
+                ? ProjectLang.BUTTON_REPO_ES
+                : ProjectLang.BUTTON_REPO_EN
             }
           />
         ))}

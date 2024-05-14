@@ -151,31 +151,33 @@ export const projects = [
     name: "Marvel Challenge",
     type: "Web App",
     image: "/assets/images/portfolio/app-marvel.jpeg",
-    url: "https://marvel-app-challenge.vercel.app/",
+    tags: ["React", "Typescript", "Bootstrap", "Styled Components"],
+    path_to_project: "https://marvel-app-challenge.vercel.app/",
+    path_to_repository: "",
   },
   {
     name: "NCR Challenge",
     type: "Web App",
     image: "/assets/images/portfolio/ncr-challenge.jpeg",
-    url: "https://ncr-challenge-peach.vercel.app/",
-  },
-  {
-    name: "Conexa Challenge",
-    type: "Web App",
-    image: "/assets/images/portfolio/conexa-challenge.jpeg",
-    url: "https://conexa-challenge-phi.vercel.app/",
+    tags: ["React", "Typescript", "Redux", "Styled Components", "Jest"],
+    path_to_project: "https://ncr-challenge-peach.vercel.app/",
+    path_to_repository: "https://github.com/alodor24/ncr-challenge",
   },
   {
     name: "Calculator React Project",
     type: "Web App",
     image: "/assets/images/portfolio/calculator.jpeg",
-    url: "https://calculator-ten-tawny.vercel.app/",
+    tags: ["React", "Typescript", "Material UI", "Styled Components"],
+    path_to_project: "https://calculator-ten-tawny.vercel.app/",
+    path_to_repository: "https://github.com/alodor24/calculator",
   },
   {
     name: "Liteflix Challenge",
     type: "Web App",
     image: "/assets/images/portfolio/app-liteflix.jpeg",
-    url: "https://liteflix-challenge.vercel.app/",
+    tags: ["React", "Next", "Bootstrap"],
+    path_to_project: "https://liteflix-challenge.vercel.app/",
+    path_to_repository: "https://github.com/alodor24/liteflix-challenge",
   },
 ];
 
@@ -214,11 +216,15 @@ export enum SkillLang {
 export enum ProjectLang {
   TITLE_ES = "Proyectos",
   SUBTITLE_ES = "Algunos de los proyectos realizados.",
-  BUTTON_ES = "Ver Proyecto",
+  BUTTON_PROJECT_ES = "Ver Proyecto",
+  BUTTON_REPO_ES = "Ver Repositorio",
+  TAGS_ES = "Etiquetas",
 
   TITLE_EN = "Projects",
   SUBTITLE_EN = "Some projects that I have developed.",
-  BUTTON_EN = "See Project",
+  BUTTON_PROJECT_EN = "See Project",
+  BUTTON_REPO_EN = "See Repository",
+  TAGS_EN = "Tags",
 }
 
 export enum ContactLang {
