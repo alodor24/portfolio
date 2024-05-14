@@ -25,7 +25,7 @@ const Navbar = () => {
                 alt="Alodor Logo"
                 width={180}
                 height={50}
-                priority={false}
+                priority={true}
               />
             </Link>
           </SC.ContainerLogo>

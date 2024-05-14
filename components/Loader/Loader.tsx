@@ -8,7 +8,7 @@ const Loader = () => {
         alt="loader"
         width={95}
         height={100}
-        priority
+        priority={true}
       />
     </SC.Wrapper>
   );

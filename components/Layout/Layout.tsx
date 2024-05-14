@@ -25,8 +25,7 @@ const Layout = () => {
     <>
       <Head />
       {isLoading ? (
-        // <Loader />
-        <p>...</p>
+        <Loader />
       ) : (
         <SC.Wrapper>
           <Navbar />
