@@ -216,13 +216,13 @@ export enum SkillLang {
 export enum ProjectLang {
   TITLE_ES = "Proyectos",
   SUBTITLE_ES = "Algunos de los proyectos realizados.",
-  BUTTON_PROJECT_ES = "Ver Proyecto",
+  BUTTON_PROJECT_ES = "Demo",
   BUTTON_REPO_ES = "Ver Repositorio",
   TAGS_ES = "Etiquetas",
 
   TITLE_EN = "Projects",
   SUBTITLE_EN = "Some projects that I have developed.",
-  BUTTON_PROJECT_EN = "See Project",
+  BUTTON_PROJECT_EN = "Demo",
   BUTTON_REPO_EN = "See Repository",
   TAGS_EN = "Tags",
 }
