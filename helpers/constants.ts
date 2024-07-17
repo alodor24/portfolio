@@ -234,9 +234,9 @@ export enum ContactLang {
 }
 
 export enum FooterLang {
-  AUTHOR_ES = "Desarrollado por Alodor",
+  AUTHOR_ES = "Desarrollado con <i class='fas fa-heart'></i> por Alodor",
 
-  AUTHOR_EN = "Developed by Alodor",
+  AUTHOR_EN = "Developed with <i class='fas fa-heart'></i> by Alodor",
 }
 
 export const TIME_DELAY = 3000;

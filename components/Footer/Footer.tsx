@@ -6,15 +6,15 @@ import * as SC from "./Footer.styles";
 const Footer = () => {
   const { language } = useLanguageContext();
   const year = new Date().getFullYear();
+  const footerText =
+    language === Lang.ES
+      ? `${FooterLang.AUTHOR_ES} | ${year}`
+      : `${FooterLang.AUTHOR_EN} | ${year}`;
 
   return (
     <SC.Footer>
       <Container>
-        <SC.Text>
-          {language === Lang.ES
-            ? `${FooterLang.AUTHOR_ES}`
-            : `${FooterLang.AUTHOR_EN}`}
-        </SC.Text>
+        <SC.Text dangerouslySetInnerHTML={{ __html: footerText }} />
       </Container>
     </SC.Footer>
   );
