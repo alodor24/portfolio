@@ -24,7 +24,13 @@ const Skills = () => {
       <SC.Wrapper>
         {technologies.map((tech, index) => (
           <SC.ContainerLogo key={index}>
-            <Image src={tech.icon} alt={tech.name} width={125} height={65} />
+            <Image
+              src={tech.icon}
+              alt={tech.name}
+              width={125}
+              height={65}
+              title={tech.name}
+            />
           </SC.ContainerLogo>
         ))}
       </SC.Wrapper>
