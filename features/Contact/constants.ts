@@ -10,11 +10,6 @@ export const profiles = [
     url: "https://github.com/alodor24",
   },
   {
-    title: "Telegram",
-    favicon: "fab fa-telegram-plane",
-    url: "https://t.me/alejo_mndz",
-  },
-  {
     title: "E-mail",
     favicon: "fas fa-envelope",
     url: "mailto:jose-a-mendez@hotmail.com",
