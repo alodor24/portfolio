@@ -101,10 +101,6 @@ export const technologies = [
     icon: "/assets/images/logos/material-ui.svg",
   },
   {
-    name: "mongodb",
-    icon: "/assets/images/logos/mongodb.svg",
-  },
-  {
     name: "mysql",
     icon: "/assets/images/logos/mysql.svg",
   },
