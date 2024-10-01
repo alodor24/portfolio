@@ -41,7 +41,14 @@ const About = () => {
               : AboutLang.PARAGRAPH_3_EN}
           </p>
 
-          <Button href="/assets/files/resume.pdf" target="_blank">
+          <Button
+            href={
+              language === Lang.ES
+                ? "/assets/files/resume_ES.pdf"
+                : "/assets/files/resume_EN.pdf"
+            }
+            target="_blank"
+          >
             {language === Lang.ES ? AboutLang.BUTTON_ES : AboutLang.BUTTON_EN}
           </Button>
         </div>
